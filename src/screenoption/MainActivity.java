@@ -1,6 +1,7 @@
 package screenoption;
 
 import tkgd_android.com.R;
+import about_me.infomation;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
@@ -9,16 +10,19 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
+import android.widget.TextView;
 import sinhntpk00491_lab2.lab2;
 import sinhntpk00491_lab3.lab3;
 import sinhntpk00491_lab4.lab4;
 
 public class MainActivity extends Activity implements OnClickListener{
 	Button btn1,btn2,btn3,btn4,btn5,btn6,btn7,btn8;
+	TextView about;
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
+		about = (TextView) findViewById(R.id.aboutme);
 		btn1= (Button) findViewById(R.id.btn1);
 		btn2= (Button) findViewById(R.id.btn2);
 		btn3= (Button) findViewById(R.id.btn3);
@@ -35,6 +39,7 @@ public class MainActivity extends Activity implements OnClickListener{
 		btn6.setOnClickListener(this);
 		btn7.setOnClickListener(this);
 		btn8.setOnClickListener(this);
+		about.setOnClickListener(this);
 	}
 
 	@Override
@@ -71,7 +76,10 @@ public class MainActivity extends Activity implements OnClickListener{
 //			Intent intent = new Intent(getApplicationContext(),lab8.class);
 //			startActivity(intent);
 //		}
-		
+		if(v==about){
+			Intent intent = new Intent(getApplicationContext(),infomation.class);
+			startActivity(intent);
+		}
 	}
 
 	
