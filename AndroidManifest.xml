@@ -27,7 +27,7 @@
         <activity android:name="sinhntpk00491_lab3.lab3_1" android:label="Đăng ký"></activity>
         <activity android:name="sinhntpk00491_lab3.lab3_2" android:label="Quên mật khẩu"></activity>
         <activity android:name="sinhntpk00491_lab4.lab4" android:label="Lap 4"></activity>
-        <activity android:name="about_me.information" android:label="About me"></activity>
+        <activity android:name="about_me.infomation" android:label="About me"></activity>
     </application>
 
 </manifest>

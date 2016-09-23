@@ -4,79 +4,95 @@
     android:layout_height="match_parent"
     android:background="@drawable/bg1"
     android:orientation="vertical"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
     tools:context="screenoption.MainActivity" >
 
     <TextView
         android:id="@+id/textView1"
+        style="@style/fontstyle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:paddingBottom="10dp"
-        android:text="Danh sách lab"
-        android:textColor="#fff"
-        android:textSize="30sp"
-        android:textStyle="bold" />
+        android:text="Danh sách lab" />
 
     <Button
         android:id="@+id/btn1"
+        style="@style/button_style"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Lab1"
+        android:background="@drawable/button_selecter"
+        android:text="Lab1(chưa có)"
         android:textColor="#fff"
         android:textSize="25sp" />
 
     <Button
         android:id="@+id/btn2"
+        style="@style/button_style"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="@drawable/button_selecter"
         android:text="Lab2"
         android:textColor="#fff"
         android:textSize="25sp" />
 
     <Button
         android:id="@+id/btn3"
+        style="@style/button_style"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="@drawable/button_selecter"
         android:text="Lab3"
         android:textColor="#fff"
         android:textSize="25sp" />
 
     <Button
         android:id="@+id/btn4"
+        style="@style/button_style"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="@drawable/button_selecter"
         android:text="Lab4"
         android:textColor="#fff"
         android:textSize="25sp" />
 
     <Button
         android:id="@+id/btn5"
+        style="@style/button_style"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="@drawable/button_selecter"
         android:text="Lab5(chưa có)"
         android:textColor="#fff"
         android:textSize="25sp" />
 
     <Button
         android:id="@+id/btn6"
+        style="@style/button_style"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="@drawable/button_selecter"
         android:text="Lab6(chưa có)"
         android:textColor="#fff"
         android:textSize="25sp" />
 
     <Button
         android:id="@+id/btn7"
+        style="@style/button_style"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="@drawable/button_selecter"
         android:text="Lab7(chưa có)"
         android:textColor="#fff"
         android:textSize="25sp" />
 
     <Button
         android:id="@+id/btn8"
+        style="@style/button_style"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="@drawable/button_selecter"
         android:text="Lab8(chưa có)"
         android:textColor="#fff"
         android:textSize="25sp" />
@@ -86,10 +102,14 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="right"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/button_selecter"
+        android:paddingBottom="10dp"
+        android:paddingLeft="10dp"
         android:paddingRight="10dp"
-        android:paddingTop="30dp"
+        android:paddingTop="10dp"
         android:text="About me"
-        android:textColor="#22AAE2"
+        android:textColor="#00FF00"
         android:textSize="30sp" />
 
 </LinearLayout>
