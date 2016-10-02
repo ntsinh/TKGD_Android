@@ -8,6 +8,10 @@
         android:minSdkVersion="14"
         android:targetSdkVersion="14" />
 
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
     <application
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
@@ -22,12 +26,52 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="sinhntpk00491_lab2.lab2" android:label="Lap 2"></activity>
-        <activity android:name="sinhntpk00491_lab3.lab3" android:label="Lap 3"></activity>
-        <activity android:name="sinhntpk00491_lab3.lab3_1" android:label="Đăng ký"></activity>
-        <activity android:name="sinhntpk00491_lab3.lab3_2" android:label="Quên mật khẩu"></activity>
-        <activity android:name="sinhntpk00491_lab4.lab4" android:label="Lap 4"></activity>
-        <activity android:name="about_me.infomation" android:label="About me"></activity>
+        <activity
+            android:name="sinhntpk00491_lab1.lab1"
+            android:label="Lap 1" >
+        </activity>
+        <activity
+            android:name="sinhntpk00491_lab2.lab2"
+            android:label="Lap 2" >
+        </activity>
+        <activity
+            android:name="sinhntpk00491_lab3.lab3"
+            android:label="Lap 3" >
+        </activity>
+        <activity
+            android:name="sinhntpk00491_lab3.lab3_1"
+            android:label="Đăng ký" >
+        </activity>
+        <activity
+            android:name="sinhntpk00491_lab3.lab3_2"
+            android:label="Quên mật khẩu" >
+        </activity>
+        <activity
+            android:name="sinhntpk00491_lab4.lab4"
+            android:label="Lap 4" >
+        </activity>
+        <activity
+            android:name="sinhntpk00491_lab5.Tab1"  >
+        </activity>
+        <activity
+            android:name="sinhntpk00491_lab5.Tab2"  >
+        </activity>
+        <activity
+            android:name="sinhntpk00491_lab5.lab5"
+            android:label="Lap 5" >
+        </activity>
+        <activity
+            android:name="about_me.infomation"
+            android:label="About me" >
+        </activity>
+        <activity android:name="about_me.info" >
+        </activity>
+        <activity android:name="about_me.contact" >
+        </activity>
+        <activity
+            android:name=".Tab1"
+            android:label="@string/title_activity_tab1" >
+        </activity>
     </application>
 
 </manifest>

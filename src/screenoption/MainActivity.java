@@ -9,9 +9,11 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.TextView;
+import sinhntpk00491_lab1.lab1;
 import sinhntpk00491_lab2.lab2;
 import sinhntpk00491_lab3.lab3;
 import sinhntpk00491_lab4.lab4;
+import sinhntpk00491_lab5.lab5;
 
 public class MainActivity extends Activity implements OnClickListener{
 	Button btn1,btn2,btn3,btn4,btn5,btn6,btn7,btn8;
@@ -42,10 +44,10 @@ public class MainActivity extends Activity implements OnClickListener{
 
 	@Override
 	public void onClick(View v) {
-//		if(v==btn1){
-//			Intent intent = new Intent(getApplicationContext(),lab1.class);
-//			startActivity(intent);
-//		}
+		if(v==btn1){
+			Intent intent = new Intent(getApplicationContext(),lab1.class);
+			startActivity(intent);
+		}
 		if(v==btn2){
 			Intent intent = new Intent(getApplicationContext(),lab2.class);
 			startActivity(intent);
@@ -58,10 +60,10 @@ public class MainActivity extends Activity implements OnClickListener{
 			Intent intent = new Intent(getApplicationContext(),lab4.class);
 			startActivity(intent);
 		}
-//		if(v==btn5){
-//			Intent intent = new Intent(getApplicationContext(),lab5.class);
-//			startActivity(intent);
-//		}
+		if(v==btn5){
+			Intent intent = new Intent(getApplicationContext(),lab5.class);
+			startActivity(intent);
+		}
 //		if(v==btn6){
 //			Intent intent = new Intent(getApplicationContext(),lab6.class);
 //			startActivity(intent);
