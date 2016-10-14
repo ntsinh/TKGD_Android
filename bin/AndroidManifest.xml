@@ -5,8 +5,8 @@
     android:versionName="1.0" >
 
     <uses-sdk
-        android:minSdkVersion="14"
-        android:targetSdkVersion="14" />
+        android:minSdkVersion="11"
+        android:targetSdkVersion="23" />
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
@@ -59,6 +59,33 @@
         <activity
             android:name="sinhntpk00491_lab5.lab5"
             android:label="Lap 5" >
+        </activity>
+        <activity
+            android:name="sinhntpk00491_lab6.lab6"
+            android:label="Lap 6" >
+        </activity>
+        <activity
+            android:name="sinhntpk00491_lab6.lab6_register" >
+        </activity>
+        <activity
+            android:name="sinhntpk00491_lab7.lab7"
+            android:label="Lap 7" >
+        </activity>
+        <activity
+            android:name="sinhntpk00491_lab7.Lab7_Tinh"
+            android:label="Lap 7" >
+        </activity>
+        <activity
+            android:name="sinhntpk00491_lab8.lab8"
+            android:label="Lap 8" >
+        </activity>
+         <activity
+            android:name="sinhntpk00491_lab8.Item"
+            android:label="Lap 8" >
+        </activity>
+         <activity
+            android:name="sinhntpk00491_lab8.list_adapter"
+            android:label="Lap 8" >
         </activity>
         <activity
             android:name="about_me.infomation"

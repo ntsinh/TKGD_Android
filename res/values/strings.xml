@@ -5,5 +5,25 @@
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
     <string name="title_activity_tab1">Tab1</string>
+	 <string-array name="titles">
+	    
+        <item>Lab 1</item>
+        <item>Lab 2</item>
+        <item>Lab 3</item>
+        <item>Lab 4</item>
+        <item>Lab 5</item>
+        <item>Lab 6</item>
+        <item>Lab 7</item>
+    </string-array>
 
+    <array name="icons">
+        
+        <item>@drawable/nb1</item>
+        <item>@drawable/nb2</item>
+        <item>@drawable/nb3</item>
+        <item>@drawable/nb4</item>
+        <item>@drawable/nb5</item>
+        <item>@drawable/nb6</item>
+        <item>@drawable/nb7</item>
+    </array>
 </resources>

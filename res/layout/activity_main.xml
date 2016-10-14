@@ -9,7 +9,7 @@
     tools:context="screenoption.MainActivity" >
 
     <TextView
-        android:id="@+id/textView1"
+        android:id="@+id/txtInfo"
         style="@style/fontstyle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -74,7 +74,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@drawable/button_selecter"
-        android:text="Lab6(chưa có)"
+        android:text="Lab6"
         android:textColor="#fff"
         android:textSize="25dip" />
 
@@ -84,7 +84,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@drawable/button_selecter"
-        android:text="Lab7(chưa có)"
+        android:text="Lab7"
         android:textColor="#fff"
         android:textSize="25dip" />
 
@@ -94,7 +94,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@drawable/button_selecter"
-        android:text="Lab8(chưa có)"
+        android:text="Lab8"
         android:textColor="#fff"
         android:textSize="25dip" />
 
